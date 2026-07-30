@@ -198,10 +198,15 @@ https://github.com/SKadam1905/CreditWise-Loan-Approval-System
 ## 👨‍💻 Author
 
 **Shubham Kadam**
+
 B.Tech Information Technology (Honours in Artificial Intelligence & Machine Learning)
+
 Sanjivani College of Engineering, Kopargaon
+
 📌 GitHub: https://github.com/SKadam1905
+
 📧 Email: kadamshubham1905@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/shubham-kadam-09a184209/
 
 ---
