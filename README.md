@@ -1,6 +1,10 @@
-# CreditWise: Intelligent Loan Approval Prediction System
+# 💳 CreditWise – AI-Powered Loan Approval Prediction System
 
-CreditWise is a professional, deployment-ready decision-support application built for fintech and banking environments. By leverage an end-to-end Machine Learning pipeline trained on historical borrower data, CreditWise enables credit analysts and underwriters to evaluate loan applications, estimate approval probabilities, and identify core risk factors.
+CreditWise is an end-to-end Machine Learning application that predicts loan approval eligibility using applicant demographic, financial, and loan information.
+
+The project combines a Scikit-learn Machine Learning pipeline with an interactive Streamlit dashboard to help users evaluate loan applications, estimate approval probabilities, visualize model performance, and explore historical lending patterns.
+
+This project was developed for educational purposes to demonstrate the complete lifecycle of a Machine Learning application—from data preprocessing and feature engineering to model training, evaluation, and deployment using Streamlit.
 
 ---
 
@@ -12,12 +16,14 @@ CreditWise solves this by providing a unified Scikit-learn predictive model and 
 ---
 
 ## ✨ Key Features
-- **Instant Eligibility Assessment**: input demographic, financial, and loan metrics to receive an immediate classification recommendation ("Likely Eligible" or "Further Review Recommended").
-- **Approval Probability Gauge**: Interactive Plotly gauge highlighting the model's exact probability percentage for credit decisions.
-- **Explainable Underwriting Observations**: Rule-based alerts pointing out specific financial strengths (e.g., strong savings buffer) and risk vectors (e.g., high debt-to-income ratio).
-- **Interactive Model Diagnostics**: Live ROC Curve, Confusion Matrix, and Global Feature Importance charts allowing transparency into how the model makes decisions.
-- **Historical Data Insights**: A multi-tab dashboard visualizing historical categorical approval rates, distribution heatmaps, and income spreads to identify systemic lending patterns.
-- **CSV Underwriting Reports**: Generate and download standard, clean credit decision CSV reports for local record-keeping without storing sensitive applicant data.
+
+- 🤖 **AI-Based Loan Eligibility Prediction** – Predict whether an applicant is likely to receive loan approval based on financial and demographic information.
+- 📈 **Approval Probability Gauge** – Interactive Plotly gauge displaying the model's predicted approval probability.
+- ⚠️ **Risk Assessment** – Rule-based financial observations highlighting applicant strengths and potential risks.
+- 📊 **Interactive Model Performance Dashboard** – ROC Curve, Confusion Matrix, Feature Importance, and Classification Metrics.
+- 📉 **Historical Data Insights** – Interactive visualizations for approval rates, income distributions, and applicant characteristics.
+- 📄 **Downloadable Prediction Report** – Export applicant assessment as a CSV report.
+- 🚀 **Deployment Ready** – Built with Streamlit and optimized for deployment on Streamlit Community Cloud.
 
 ---
 
@@ -149,13 +155,28 @@ CreditWise is pre-configured for instant deployment on the **Streamlit Community
 
 ---
 
+## 🌐 Live Demo
+
+**Streamlit Application**
+
+https://creditwise-loan-approval-system-af3scncckhxsvf4y3z2grn.streamlit.app/
+
+**GitHub Repository**
+
+https://github.com/SKadam1905/CreditWise-Loan-Approval-System
+
 ## 🛠️ Technology Stack
-- **Languages**: Python 3.11
-- **Machine Learning**: Scikit-Learn
-- **Dashboard UI**: Streamlit, Custom HTML/CSS
-- **Visualizations**: Plotly, Matplotlib
-- **Data Engineering**: Pandas, NumPy
-- **Model Storage**: Joblib
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python 3.11 |
+| Machine Learning | Scikit-learn |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Plotly, Matplotlib |
+| Web Framework | Streamlit |
+| Model Storage | Joblib |
+| Version Control | Git, GitHub |
+| Deployment | Streamlit Community Cloud |
 
 ---
 
@@ -166,11 +187,27 @@ CreditWise is pre-configured for instant deployment on the **Streamlit Community
 
 ---
 
-## 📝 Resume Bullet Point Example
-> **CreditWise Underwriting System (Machine Learning & Streamlit)**  
-> *Developed a professional fintech credit underwriting application utilizing an end-to-end Scikit-learn Pipeline (imputation, scaling, one-hot encoding) paired with a Gradient Boosting Classifier. Achieved **95.79% Test Accuracy** and **93.65% Test F1-Score**. Integrated interactive Plotly visualization dashboards (ROC Curve, Confusion Matrix, and Historical Spreads) and a Streamlit UI equipped with real-time input validations and rule-based risk assessments.*
+## 📝 Resume Project Description
+
+> **CreditWise – AI-Powered Loan Approval Prediction System**
+>
+> Developed an end-to-end Machine Learning application using Python, Scikit-learn, and Streamlit to predict loan approval eligibility based on applicant demographic, financial, and loan information. Built a complete preprocessing pipeline using ColumnTransformer, One-Hot Encoding, StandardScaler, and Gradient Boosting Classifier. Designed an interactive dashboard for real-time predictions, model performance visualization, and historical data analysis. Deployed the application using Streamlit with GitHub integration.
 
 ---
 
-## 👥 Author
-Created for portfolio demonstration and resume integration.
+## 👨‍💻 Author
+
+**Shubham Kadam**
+B.Tech Information Technology (Honours in Artificial Intelligence & Machine Learning)
+Sanjivani College of Engineering, Kopargaon
+📌 GitHub: https://github.com/SKadam1905
+📧 Email: kadamshubham1905@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/shubham-kadam-09a184209/
+
+---
+
+## 📄 License
+
+This project is developed for educational, learning, and portfolio purposes only.
+
+The application demonstrates Machine Learning concepts for loan approval prediction and should not be used as a substitute for real-world banking or financial decision-making systems.
